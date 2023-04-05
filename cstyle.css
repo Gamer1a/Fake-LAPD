@@ -1,0 +1,43 @@
+/* Styles for contact page */
+
+/* Centering the form */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  /* Styling form inputs */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  /* Styling the submit button */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
